@@ -1,0 +1,159 @@
+body {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  margin: 0;
+}
+
+.blogs {
+  margin: 20px;
+}
+
+.error,
+.success,
+.likeMessage,
+.removeNotification {
+  color: white;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #dd5044;
+  border-radius: 5px;
+}
+
+.success {
+  background-color: #17a05d;
+}
+
+.removeNotification {
+  background-color: #4700c6;
+}
+
+.logged-div {
+  display: flex;
+  align-items: center;
+}
+
+.bloglist {
+  margin-top: 20px;
+}
+
+.blog {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  background-color: #ddeaff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.label {
+  display: inline-block;
+  width: 50px;
+}
+
+h2 {
+  font-family: 'Roboto', 'Oxygen', 'Cantarell', 'Fira Sans', sans-serif;
+}
+
+input[type='text'] {
+  margin: 0 0 8px 8px;
+  height: 1.8em;
+  color: #686868;
+  outline: none;
+  border: 2px solid #686868;
+  border-radius: 3px;
+}
+
+input[type='text']:focus {
+  border: 2px solid #5701ed;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.blogTitle{
+  display: flex;
+}
+
+button {
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  background-color: #5701ed;
+  border-radius: 4px;
+  letter-spacing: 1.3px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #4700c6;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #5701ed;
+}
+
+.logout-btn {
+  margin-left: 15px;
+  padding: 6px 8px;
+  background-color: #38009f;
+}
+
+.logout-btn:hover {
+  background-color: #5701ed;
+}
+
+.create-btn {
+  align-self: center;
+  margin: 0 0 15px 60px;
+}
+
+.viewButton,
+.hideButton {
+  margin-left: 10px;
+  padding: 7px 12px;
+
+  font-size: 60%;
+  background-color: #838a96;
+}
+.hideButton {
+  background-color: #2b0079;
+}
+
+.viewButton:hover {
+  background-color: #565b63;
+}
+
+.hideButton:hover {
+  background-color: #38009f;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+}
+
+.likeButton,
+.removeButton {
+  margin-left: 10px;
+  font-size: 60%;
+  padding: 5px 10px;
+  background-color: #ff47a4;
+}
+
+.removeButton {
+  background-color: #2b0079;
+  color: white;
+  margin: 0;
+}
+
+.likeButton:hover {
+  background-color: #ff19a4;
+}
+
+.removeButton:hover {
+  background-color: #38009f;
+}
